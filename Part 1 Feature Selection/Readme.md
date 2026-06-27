@@ -41,7 +41,6 @@ This ensures all input data is fully numerical.
 - Compressed Gas
 - Explosive
 - Oxidizer
-Each sample can belong to multiple hazard categories simultaneously.
 
 5. Train-Test Split: Dataset is split into 80% training and 20% testing and random state is fixed for reproducibility.
 
