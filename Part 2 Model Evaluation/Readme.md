@@ -18,23 +18,23 @@ Machine Learning Models (scikit-learn):-
 - sklearn.neural_network.MLPClassifier – feedforward neural network for non-linear learning
 - sklearn.cluster.KMeans – unsupervised clustering algorithm
 
-Model Training & Evaluation:
+Model Training & Evaluation:-
 - sklearn.model_selection.train_test_split – splits dataset into training and testing sets
 - sklearn.metrics.accuracy_score – measures overall prediction correctness
 - sklearn.metrics.precision_score – measures correctness of positive predictions
 - sklearn.metrics.recall_score – measures ability to detect actual positives
 - sklearn.metrics.f1_score – harmonic mean of precision and recall
 
-Preprocessing
+Preprocessing:-
 - SimpleImputer – fills missing values in dataset
 - StandardScaler – standardizes features for better model performance
 
-Data Handling
+Data Handling:-
 - pandas – data loading and manipulation using DataFrames
 - numpy – numerical operations and array processing
 - itertools.combinations – generates all possible feature combinations
 
-Visualisation
+Visualisation:-
 - matplotlib.pyplot – creates graphs, heatmaps and dartboard visualisations
 
 Operations Performed
