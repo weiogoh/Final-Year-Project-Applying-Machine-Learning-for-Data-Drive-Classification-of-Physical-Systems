@@ -1,10 +1,11 @@
 Part 1: Feature Selection and Feature Reduction
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This is the first stage of the chemical hazard classification project. The main objective of this part is to clean and preprocess the raw dataset, engineer meaningful features, and identify the most important variables for predicting chemical hazard categories. This stage also includes feature importance analysis using a Random Forest model and final feature reduction to produce a compact and optimized feature set.
+This is the first stage of the chemical hazard classification project. The main objective of this part is to clean and preprocess the raw dataset, engineer meaningful features, and identify the most important variables for predicting chemical hazard categories. This stage also includes feature importance analysis using a Random Forest model and final feature reduction to produce a compact and optimized feature set. The output of this part is used as the input for later stages such as model evaluation and data balancing analysis.
 
-The output of this part is used as the input for later stages such as model evaluation and data balancing analysis.
+Libraries Used
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Libraries Used:-
 pandas – Used for loading, cleaning, manipulating, and exporting dataset
 numpy – Used for numerical operations and handling infinite values
 re (Regular Expression) – Used for cleaning feature values by removing non-numeric characters
@@ -15,6 +16,7 @@ StandardScaler → feature normalization
 RandomForestClassifier → model training and feature importance extraction
 
 Operations Performed
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 1. Data Loading: The dataset is loaded using pandas and initial missing values are replaced with zero for consistency.
 
@@ -55,9 +57,11 @@ Each sample can belong to multiple hazard categories simultaneously.
 11. Feature Consolidation: After exporting the top5_feature_importances.csv, a consolidation process is performed using Google Sheets with the formula =UNIQUE(B2:B100) where column B is the features for the exported csv file. After consolidation, the final result produces 7 main features. These 7 features represent the most stable and consistently important variables across all hazard categories. The final reduced dataset is saved as features.csv.
 
 Outputs of This Part
-This stage produces two main outputs:
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 - top5_feature_importances.csv: Top 5 features per hazard category includes importance scores.
 - features.csv: Final reduced feature set which contains 7 optimized features after consolidation.
 
-Summary:-
+Summary
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Part 1 focuses on full data preparation, feature engineering and feature reduction. The dataset is cleaned, transformed and used to train a Random Forest model for feature importance analysis. The most important features are extracted per hazard category and then consolidated to remove redundancy. This process results in a final set of 7 key features, which will be used as the input for the next stages of the project including model evaluation and balancing analysis.
