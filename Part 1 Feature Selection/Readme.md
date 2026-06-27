@@ -7,13 +7,16 @@ Libraries Used
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 pandas – Used for loading, cleaning, manipulating, and exporting dataset
+
 numpy – Used for numerical operations and handling infinite values
+
 re (Regular Expression) – Used for cleaning feature values by removing non-numeric characters
-scikit-learn (sklearn) – Used for machine learning tasks including:
-train_test_split → splitting dataset
-SimpleImputer → handling missing values
-StandardScaler → feature normalization
-RandomForestClassifier → model training and feature importance extraction
+
+scikit-learn (sklearn) – Used for machine learning tasks including:-
+- train_test_split → splitting dataset
+- SimpleImputer → handling missing values
+- StandardScaler → feature normalization
+- RandomForestClassifier → model training and feature importance extraction
 
 Operations Performed
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
