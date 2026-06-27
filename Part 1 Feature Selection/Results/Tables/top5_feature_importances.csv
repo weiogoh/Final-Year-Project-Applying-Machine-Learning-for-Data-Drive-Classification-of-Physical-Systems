@@ -1,0 +1,46 @@
+Output,Feature,Importance
+Irritant,Complexity,0.13394692567333316
+Irritant,XLogP3,0.11004076547089163
+Irritant,Monoisotopic Mass,0.10785905539045071
+Irritant,Topological Polar Surface Area,0.10551063816033937
+Irritant,Exact Mass,0.10500528462524814
+Acute Toxic,Complexity,0.12501125214285247
+Acute Toxic,Exact Mass,0.11303106905176598
+Acute Toxic,Monoisotopic Mass,0.11240011401657067
+Acute Toxic,Molecular Weight,0.10881517538586367
+Acute Toxic,Topological Polar Surface Area,0.10704416029617018
+Flammable,Complexity,0.13135239225476447
+Flammable,Monoisotopic Mass,0.12353694449476205
+Flammable,Topological Polar Surface Area,0.11843357962569287
+Flammable,Exact Mass,0.11283961327985845
+Flammable,Molecular Weight,0.10701264778752174
+Corrosive,Complexity,0.14057775009843915
+Corrosive,XLogP3,0.12331767463427493
+Corrosive,Topological Polar Surface Area,0.11821803700138814
+Corrosive,Monoisotopic Mass,0.11156466449982462
+Corrosive,Exact Mass,0.110992774877678
+Health Hazard,Complexity,0.11665315728950786
+Health Hazard,Exact Mass,0.10335896740011224
+Health Hazard,Monoisotopic Mass,0.10153982115110094
+Health Hazard,Molecular Weight,0.0995209953581085
+Health Hazard,Topological Polar Surface Area,0.09162920399486901
+Environmental Hazard,Complexity,0.12278390846302949
+Environmental Hazard,XLogP3,0.115536956363255
+Environmental Hazard,Monoisotopic Mass,0.10829824522438948
+Environmental Hazard,Exact Mass,0.10574950648445852
+Environmental Hazard,Molecular Weight,0.10206662187732961
+Compressed Gas,Monoisotopic Mass,0.14432573403348514
+Compressed Gas,Exact Mass,0.1428429658927525
+Compressed Gas,Molecular Weight,0.1358896666764298
+Compressed Gas,XLogP3,0.09058193785332982
+Compressed Gas,Hydrogen Bond Acceptor Count,0.07952086207101665
+Explosive,Monoisotopic Mass,0.14427283922423087
+Explosive,Exact Mass,0.13724531331723214
+Explosive,Topological Polar Surface Area,0.12740197312062812
+Explosive,Molecular Weight,0.11861929089111115
+Explosive,Complexity,0.1074224742685672
+Oxidizer,Exact Mass,0.14562595022209046
+Oxidizer,Monoisotopic Mass,0.14365824628845672
+Oxidizer,Molecular Weight,0.13651224857418917
+Oxidizer,Topological Polar Surface Area,0.12661728470207845
+Oxidizer,Complexity,0.11960346611156562
