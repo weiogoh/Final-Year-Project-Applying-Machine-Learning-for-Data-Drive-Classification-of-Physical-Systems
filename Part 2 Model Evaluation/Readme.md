@@ -24,16 +24,16 @@ Machine Learning Models (scikit-learn):
 - recall_score – Measures ability to detect actual positives
 - f1_score – Harmonic mean of precision and recall
 
-Preprocessing
+Preprocessing:
 - SimpleImputer – Handles missing values in dataset
 - StandardScaler – Standardises features for improved model performance
 
-Data Handling
+Data Handling:
 - pandas – Data loading and manipulation using DataFrames
 - numpy – Numerical operations and array processing
 - itertools.combinations – Generates all possible feature combinations
 
-Visualisation
+Visualisation:
 - matplotlib.pyplot – Creates graphs heatmaps and dartboard visualisations
 
 Operations Performed
