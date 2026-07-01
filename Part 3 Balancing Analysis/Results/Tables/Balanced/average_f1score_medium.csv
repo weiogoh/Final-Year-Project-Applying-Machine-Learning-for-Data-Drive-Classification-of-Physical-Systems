@@ -1,0 +1,6 @@
+output,average_f1score
+acute_toxic,0.9999827376977825
+corrosive,0.9916030811472109
+environmental_hazard,0.9972674209372225
+flammable,0.9929803340019254
+health_hazard,0.999998442731449

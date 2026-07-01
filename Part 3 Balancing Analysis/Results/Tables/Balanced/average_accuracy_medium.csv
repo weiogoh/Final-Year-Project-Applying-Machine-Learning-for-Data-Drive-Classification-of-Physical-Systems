@@ -1,0 +1,6 @@
+output,average_accuracy
+acute_toxic,0.9999962499999926
+corrosive,0.9966581217316519
+environmental_hazard,0.9989268730837817
+flammable,0.9971343742521922
+health_hazard,1.0

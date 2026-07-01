@@ -1,0 +1,4 @@
+output,average_f1score
+compressed_gas,0.9040968472505022
+explosive,0.9497340363095262
+oxidizer,0.9191797685248013
